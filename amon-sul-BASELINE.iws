@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="" />
+    <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/amon-sul-BASELINE.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-BASELINE.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,21 +43,6 @@
       <recent name="controllers" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,11 +65,24 @@
       <workItem from="1621192078082" duration="221000" />
       <workItem from="1621192386576" duration="130000" />
       <workItem from="1621192671154" duration="16935000" />
-      <workItem from="1621336750727" duration="323000" />
+      <workItem from="1621336750727" duration="705000" />
+      <workItem from="1621339089986" duration="672000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
