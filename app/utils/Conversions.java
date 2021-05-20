@@ -27,15 +27,8 @@ public class Conversions {
 
     public static double tempToF(double temperature) {
         double tempF = (((temperature * 9) / 5) +32);
-        double roundedTempF = (Math.round(tempF * 10) / 10);
-        return roundedTempF;
-    }
-
-    public static double windChillCalc(double windSpeed, double temperature) {
-        double windChill = (13.12 + (0.6215 * temperature)) - (11.37 * (Math.pow(windSpeed, 0.16)))
-                + ((0.3965 * temperature) * (Math.pow(windSpeed, 0.16)));
-        double roundedWindChill = (Math.round(windChill * 100) / 100);
-        return roundedWindChill;
+        tempF = (Math.round(tempF * 10.0) / 10.0);
+        return tempF;
     }
 
     public static int windToBft(double windSpeed) {
