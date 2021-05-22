@@ -8,15 +8,15 @@ import utils.Conversions;
 
 import java.util.List;
 
-public class Dashboard extends Controller
-{
-  public static void index()
-  {
-    Logger.info("Rendering Admin");
+public class Dashboard extends Controller {
 
+  public static void index() {
+
+    Logger.info("Rendering Dashboard");
     List<Station> stations = Station.findAll();
 
     for (Station station : stations) {
+
       Reading reading = station.readings.get(station.readings.size() - 1);
       station.weatherFromCode = Conversions.weatherCodeToString(reading.code);
       station.tempC = reading.temperature;
@@ -24,7 +24,6 @@ public class Dashboard extends Controller
       station.windBft = Conversions.windToBft(reading.windSpeed);
       station.pressureHPA = reading.pressure;
     }
-
     render ("dashboard.html", stations);
   }
 }
