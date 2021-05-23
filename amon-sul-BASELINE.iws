@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-BASELINE.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-BASELINE.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/latestreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/latestreadings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
       <workItem from="1621523499091" duration="17000" />
       <workItem from="1621689559346" duration="2010000" />
       <workItem from="1621762755265" duration="2118000" />
+      <workItem from="1621774641569" duration="635000" />
     </task>
     <servers />
   </component>
